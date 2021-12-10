@@ -39,5 +39,9 @@ let people: {
 
 // Type inference
 
-let course = 'React - The Complete Guide'; 
+let course: 'React - The Complete Guide'; 
+
+// Union type
+
+let stuff: string | number | boolean = 'Purple Haze';
 
