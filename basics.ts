@@ -16,3 +16,23 @@ let isGuitarist: boolean;
 
 isGuitarist = true;
 
+// More complex types
+
+let hobbies: string[];
+
+hobbies = ['Guitars', 'Games'];
+
+let person: {
+    name: string;
+    age: number;
+};
+
+person = {
+    name: 'Jimi',
+    age: 27,
+}
+
+let people: {
+    name: string;
+    age: number;
+}[];
