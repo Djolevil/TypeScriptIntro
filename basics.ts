@@ -55,3 +55,16 @@ function add(a: number, b: number) {
 function printOutput(value: any) {
     console.log(value);
 }
+
+// Generics
+
+function insertAtBeginning<T>(array: T[], value: T) {
+   const newArray = [value, ...array];
+   return newArray;
+}
+
+const demoArray = [3, 5, 7];
+
+const updatedArray = insertAtBeginning(demoArray, 357);
+const stringArray = insertAtBeginning(['x', 'y', 'z'], 'w');
+
