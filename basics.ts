@@ -44,3 +44,14 @@ let course: 'React - The Complete Guide';
 
 let stuff: string | number | boolean = 'Purple Haze';
 
+// Functions & types
+
+function add(a: number, b: number) {
+    return a + b;
+}
+
+// return type void
+
+function printOutput(value: any) {
+    console.log(value);
+}
